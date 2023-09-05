@@ -7,6 +7,7 @@ import Homepage from "./components/HomePage"
 
 // Import Pages
 import FoxPictures from './pages/FoxPictures';
+import DogsDetails from './pages/DogsDetails';
 console.log(FoxPictures)
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
     <div className="App">
       <Homepage />
       <Routes>
-        <Route path="/" element={<FoxPictures/>} />
+        <Route path="/FoxPictures" element={<FoxPictures/>} />
+        <Route path="/DogsDetails" element={<DogsDetails />} />
       </Routes>
     </div>
   );
