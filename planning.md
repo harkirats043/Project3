@@ -1,6 +1,6 @@
 ## screenshots
 
-![Alt text](image-2.png)
+![WireFrames](/images/image-1.png)
 
 ## Features 
 
