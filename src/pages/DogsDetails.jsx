@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 export default function DogsDetails() {
   const [dogImage, setDogImage] = useState('');
 
-  // Function to fetch a new random dog image
   async function fetchNewDogImage() {
     try {
       const response = await fetch('https://dog.ceo/api/breeds/image/random');
@@ -18,7 +17,6 @@ export default function DogsDetails() {
   }
 
   useEffect(() => {
-    // Fetch the initial dog image when the component mounts
     fetchNewDogImage();
   }, []);
 
@@ -30,7 +28,7 @@ export default function DogsDetails() {
           <img src={dogImage} alt="Random Dog" />
         </div>
       )}
-      <button onClick={fetchNewDogImage}>Fetch New Dog Image</button>
+      <button onClick={fetchNewDogImage}>New Dog Image</button>
     </div>
   );
 }
