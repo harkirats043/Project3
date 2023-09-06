@@ -9,7 +9,7 @@
  ## Techolongies Used
 
 - React
-- CSS for styles and colors
+- Tailwind CSS
 - JavaScript
 
 ## Icebox Features
