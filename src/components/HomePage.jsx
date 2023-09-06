@@ -1,8 +1,5 @@
 import { Link } from "react-router-dom";
 
-import FoxPictures from "../pages/FoxPictures";
-import DogsDetails from "../pages/DogsDetails";
-
 
 export default function Homepage() {
     return (
