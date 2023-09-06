@@ -25,12 +25,12 @@ export default function FoxPictures() {
   return (
     <div>
       <div className="flex justify-center">
-      <div className="max-w-lg border-solid border-2 border-indigo-60">
+      <div className="max-w-lg mt-16 mb-2 border-solid border-2 border-indigo-60">
           {foxImage && <img src={foxImage} alt="Random Fox" />}
         </div>
       </div>
       <div className='flex justify-center'>
-        <button onClick={fetchNewFoxImage} className='my-2 rounded-md bg-blue-500 px-4 py-2 hover:bg-blue-700 active:bg-blue-900 text-md ring ring-blue-300 md:ring-blue-500'>New Fox Image</button>
+        <button onClick={fetchNewFoxImage} className='my-2 rounded-md bg-blue-500 px-4 py-2 hover:bg-blue-700 active:bg-blue-900 text-md ring ring-blue-300 md:ring-blue-500'>New Image </button>
       </div>
     </div>
   );
