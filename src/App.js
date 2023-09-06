@@ -12,7 +12,7 @@ console.log(FoxPictures)
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <Homepage />
       <Routes>
         <Route path="/FoxPictures" element={<FoxPictures/>} />
