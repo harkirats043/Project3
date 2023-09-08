@@ -23,7 +23,7 @@ export default function Homepage() {
                         <LogoutButton />
                     </div>
 
-                    <div className="sm:flex sm:justify-center">
+                    <div className="sm:flex sm:justify-center ">
                         <Link to="/FoxPictures">
                         <div className="absolute top-25 left-20 max-sm:top-15 max-sm:left-2 text-[18px] sm:text-[24px] bg-blue-500 hover:bg-blue-400 text-white py-1 px-2 sm:py-1.5 sm:px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded transition-all duration-300"> Fox Images</div>
                         </Link>
