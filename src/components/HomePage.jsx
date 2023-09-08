@@ -14,7 +14,7 @@ export default function Homepage() {
     return (
         <div className="text-center">
             <Link to="/">
-                <div className="bg-gradient-to-r from-indigo-500 via-purple-400 to-pink-300 w-full h-15 my-0 font-mono font-extrabold text-[46px] max-md ">Foxes & Dogs Glore! </div>
+                <div className="bg-gradient-to-r from-indigo-500 via-purple-400 to-pink-300 w-full h-24 my-0 font-mono font-extrabold text-[46px] max-md flex items-center justify-center">Foxes & Dogs Glore! </div>
             </Link>
 
             {isAuthenticated ? (
