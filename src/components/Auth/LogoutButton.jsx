@@ -5,5 +5,4 @@ export default function LogoutButton(){
 
     return (<button className="bg-blue-500 mt-2 hover:bg-blue-800 text-white font-bold py-1.5 px-4 rounded-full"
         onClick={()=>logout()}>Log Out</button>)
-
 }
