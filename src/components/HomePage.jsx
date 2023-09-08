@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 import LoginButton from "./Auth/LoginButton";
 import LogoutButton from "./Auth/LogoutButton";
+import Footer from "./Footer";
 
 export default function Homepage() {
     const { isLoading, isAuthenticated } = useAuth0();
@@ -13,7 +14,7 @@ export default function Homepage() {
     return (
         <div className="text-center">
             <Link to="/">
-                <div className="bg-gradient-to-r from-indigo-500 via-purple-400 to-pink-300 w-full h-15 my-2 font-mono font-extrabold text-[56px] max-md ">Homepage</div>
+                <div className="bg-gradient-to-r from-indigo-500 via-purple-400 to-pink-300 w-full h-15 my-0 font-mono font-extrabold text-[46px] max-md ">Foxes & Dogs Glore! </div>
             </Link>
 
             {isAuthenticated ? (
@@ -30,9 +31,13 @@ export default function Homepage() {
                             <div className="absolute top-30 right-20 max-sm:top-15 max-sm:right-2 text-[24px]  bg-blue-500 hover:bg-blue-400 text-white py-1 px-2 border-b-4 border-blue-700 hover:border-blue-500 rounded">Dog Images</div>
                         </Link>
                     </div>
+                
                 </>
             ) : (
+                <div>
                 <LoginButton />
+                <Footer />
+                </div>
             )}
         </div>
     );
