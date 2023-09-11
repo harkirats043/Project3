@@ -32,7 +32,7 @@
 ## Icebox Features
 
  - Add Dogs detail page to learn more information about dogs
- - Add Foxs detail page to learn more information about Foxes
+ - Add Foxes detail page to learn more information about Foxes
  - Add option to save favorite Images
  - Cloudinary Support
  - Adding more animals to the website
