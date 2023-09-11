@@ -30,4 +30,4 @@
 
 ## Trello Board
 
-[Trello Board Link](www.nike.com)
+[Trello Board](https://trello.com/invite/b/RjoGRUBW/ATTIbea7f5a816f9c0cf673d2f0f88120e9aDFFAF5EC/fox-dog-images)
